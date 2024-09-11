@@ -1,0 +1,154 @@
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+header {
+  display: flex;
+}
+.leftheader {
+  flex-basis: 40%;
+  text-align: right;
+}
+.rightheader {
+  margin-top: 2rem;
+}
+
+.rightheader h1 {
+  font-weight: lighter;
+  font-size: 48px;
+  color: #da0090;
+
+  font-family: Kavivanar, cursive;
+  margin-bottom: 0;
+}
+.rightheader p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+
+  display: block;
+  padding: 0.5rem 1.5rem 0.8rem 1.5rem;
+  color: brown;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background-color: black;
+  color: green;
+  text-decoration: underline;
+}
+
+article {
+  margin: 32px 0 65px 0;
+}
+
+#img1 {
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.flex {
+  display: flex;
+}
+article .flex {
+  margin-bottom: 3rem;
+}
+
+.content {
+  margin-left: 1rem;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: lighter;
+  font-family: Kavivanar, cursive;
+  color: brown;
+  margin: 10px 0 20px 0;
+}
+
+.posted {
+  margin: 12.8px 0 12.8px 0;
+  font-size: 13px;
+  color: #89a611;
+}
+
+.highlight {
+  font-family: "Open Sans", sans-serif;
+}
+
+.style {
+  text-decoration: none;
+  color: #da0090;
+}
+
+#flex00 {
+  display: flex;
+}
+
+#img100 {
+  border: 5px solid white;
+  border-radius: 20px;
+}
+#img2 {
+  margin-right: 1.2rem;
+}
+#cssstyle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-family: Kavivanar, cursive;
+  font-weight: lighter;
+  color: brown;
+}
+
+#paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #da0090;
+}
+.div1 {
+  padding-left: 1rem;
+}
+
+section {
+  border-bottom: 1px solid red;
+}
+footer {
+  height: 75px;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid black;
+}
+.center {
+  text-align: center;
+}
+#flexy {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+footer ul {
+  list-style-type: none;
+}
